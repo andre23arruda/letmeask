@@ -21,7 +21,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [Firebase](https://firebase.google.com/)
 
 ## 💻 Projeto
-**LetMeAsk é uma plataforma de insteração entre usuários para envio e votação de perguntas.**
+**LetMeAsk é uma plataforma de interação entre usuários para envio e votação de perguntas.**
 
 ## Instalação
 ### Pré requisitos
