@@ -1,0 +1,65 @@
+@import '../../assets/theme/colors';
+
+.overlay {
+    background: #050206b5;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background: white;
+        width: 100%;
+        max-width: 600px;
+        padding: 3rem 2rem;
+        border-radius: 5px;
+        box-shadow: 0 0 60px rgba(0, 0, 0, 0.05);
+        text-align: center;
+        position: relative;
+
+        strong {
+            font-family: "Poppins";
+            font-size: 1.75rem;
+            font-weight: 700;
+            margin-top: 1rem;
+            color: black;
+        }
+
+        p {
+            font-size: 1.25rem;
+            margin-top: 1rem;
+            margin-bottom: 3rem;
+        }
+
+        div {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        // button {
+        //     position: absolute;
+        //     top: 0.5rem;
+        //     right: 0.5rem;
+        //     background: transparent;
+        //     border: 0;
+        //     font-size: 0px;
+
+        //     img {
+        //         transition: 0.2s;
+
+        //         &:hover {
+        //             transform: translateY(-1px);
+        //         }
+        //     }
+        // }
+    }
+}
